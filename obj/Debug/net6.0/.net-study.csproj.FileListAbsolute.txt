@@ -1,0 +1,15 @@
+C:\Users\labba\githubfiles\.net-study\bin\Debug\net6.0\.net-study.exe
+C:\Users\labba\githubfiles\.net-study\bin\Debug\net6.0\.net-study.deps.json
+C:\Users\labba\githubfiles\.net-study\bin\Debug\net6.0\.net-study.runtimeconfig.json
+C:\Users\labba\githubfiles\.net-study\bin\Debug\net6.0\.net-study.dll
+C:\Users\labba\githubfiles\.net-study\bin\Debug\net6.0\ref\.net-study.dll
+C:\Users\labba\githubfiles\.net-study\bin\Debug\net6.0\.net-study.pdb
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\.net-study.csproj.AssemblyReference.cache
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\.net-study.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\.net-study.AssemblyInfoInputs.cache
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\.net-study.AssemblyInfo.cs
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\.net-study.csproj.CoreCompileInputs.cache
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\.net-study.dll
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\ref\.net-study.dll
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\.net-study.pdb
+C:\Users\labba\githubfiles\.net-study\obj\Debug\net6.0\.net-study.genruntimeconfig.cache
