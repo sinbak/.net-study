@@ -150,9 +150,17 @@ public struct 구조체명 -> public : 접근지정자
  - null 병합 연산자 : ?? (null 조사) [형식 : C = A ?? B] -> A가 null이 아니라면 A를 C에 대입 -> A가 null이면 B를 C에 대입
 
 제어문
+ - if ~ else 
+ - switch case
 
 반복문
+ - while문
+ - do ~ while문
+ - foreach문
 
+분기문
+ - break 문
+ - continue 문
 점프문
 
 예외처리문
