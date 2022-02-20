@@ -198,4 +198,48 @@ ex)
      int[,] array2 = {{1,2}, {3,4}, {5,6}};
      int[,,] array3 = { {{1,2}, {3,4}, {5,6}}, {{7,8}, {9,10}, {11,12}}};
 
+가변 배열
+- 형식 : 데이터형[][] 배열명;
+ex) int[][] array_name;
+
+- 사용 예(1)
+ 1) int[][] array = new int[3][]; //데이터형[행][열]
+    array[0] = new int[2];
+    array[1] = new int[3];
+    array[2] = new int[4];
+
+ 2) int[][] array = new int[3][];
+    array[0] = new int[2] {1,2};
+    array[1] = new int[3] {3,4,5};
+    array[2] = new int[4] {6,7,8,9};
+    또는
+    int[][] array = new int[3][];
+    array[0] = new int[] {1,2};
+    array[1] = new int[] {3,4,5};
+    array[2] = new int[] {6,7,8,9};
+
+ 3) int[][] array = new int[][]
+    {
+      new int[] {1,2,3};
+      new int[] {4,5,6};
+      new int[] {7,8,9};
+    };
+
+ 4) int[][] array = {
+      new int[] {1,2,3};
+      new int[] {4,5,6};
+      new int[] {7,8,9};
+    }
+
+배열을 함수로 전달
+- 일차원 배열을 함수로 전달
+int[] array = {1,2,3,4}; // array : 객체
+
+void func(int[] arr) //arr : 참조 배열 변수
+{
+
+}
+
+func(array);
+
 
