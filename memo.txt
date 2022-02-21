@@ -260,3 +260,5 @@ SetArray(new int[,] { {1,2,3}, {4,5,6} });
 - 배열 초기화 메서드
 public static void Clear( Array array, int index, int length)  -> Array.Clear(,,) 이런식으로 할 수 있다 (static 이므로)
 
+배열복사
+public Object Clone()
