@@ -242,4 +242,16 @@ void func(int[] arr) //arr : 참조 배열 변수
 
 func(array);
 
+- 이차원 배열을 참조로 전달
+int[,] array2 = { {1,2,3}, {4,5,6}};
+SetaArray(array2);
+
+void SetArray(int[,] arr)
+{
+
+}
+SetArray(new int[,] { {1,2,3}, {4,5,6} });
+
+배열을 리턴하는 함수
+- 배열을 리턴한다는 의미 : 배열이 참조하는 객체의 주소값을 리턴하는 것
 
