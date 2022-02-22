@@ -262,3 +262,11 @@ public static void Clear( Array array, int index, int length)  -> Array.Clear(,,
 
 배열복사
 public Object Clone()
+
+파일 입출력
+- 스트림(stream)
+- 직렬화(Serialize)
+
+1) file stream
+
+
