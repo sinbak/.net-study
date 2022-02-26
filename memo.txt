@@ -268,5 +268,15 @@ public Object Clone()
 - 직렬화(Serialize)
 
 1) file stream
+- stream :  파일, 네트워크 등에서 데이터를 바이트 단위로 읽고 쓰는 클래스
+- Stream class는 상위 기본 클래스
+ ㄴ 상속 클래스들 : FileStream, Memorystream, NetworkStream, SqlFileStream 등
+- using System.IO 선언
 
-
+FileStream이란 
+- 파일입출력을 다루는 기본 클래스
+System.Object
+ + System.MarshalByRefObject
+  + System.IO.Stream
+   + System.IO.FileStream
+>>> byte[] 배열로 데이터를 읽거나 저장함 -> 형변환이 요구됨
