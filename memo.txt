@@ -284,7 +284,50 @@ System.Object
 - StreamWriter/StreamReader + BinaryWriter/BinaryReader 와 사용
 - 파일 정보 설정에 사용
 public FileStream(
-   string path;
-   FileMode mode;
-   FileAccess access
+   string path; //경로
+   FileMode mode; //모드 설정에 따라 파일 생성, 기존에 있는 파일들을 열 수 있다
+   FileAccess access //접근 방식으로 read로 할것인지 write로 할것인지 정할 수 있다
 )
+
+- FileMode. 열거형 : Append, Create, CreateNewOpen, OpenOrCreate, Truncate
+- FileAccess. 열거형 : Read, ReadWrite, Write
+
+[텍스트 파일처리]
+- 텍스트 파일의 특징
+ 1) 기본 단위 : 1 byte
+ 2) 아스키코드 기반
+- 아스키코드를 유니코드로 인코딩
+
+[StreamWriter] 
+- 역할 : 파일쓰기
+- 상속 계층 구조
+ System.Object
+  + System.MarshalByRefObject
+   + System.IO.TextWriter
+    + System.IO.StreamWriter
+- public class StreamWriter : TextWriter
+- 객체 생성과 해제
+static void Main(string[] args)
+{
+   FileStream fs = new FileStream(
+      "test.txt", Filemode.Create);
+   StreamWriter sw = new StreamWriter(fs);
+   sw.Close();
+}
+
+- using 문
+using(StreamWriter sw = new StreamWriter(
+   new FileStream("test.txt", FileMode.Create))
+{
+   //파일 입출력 처리
+}
+
+[StreamReader]
+- 역할 : 파일 읽기
+- 상속 계층 구조
+System.Object
+ + System.MarshalByRefObject
+  + System.IO.TextReader
+   + System.IO.StreamReader
+- public class StreamReader : TextReader
+- 읽기 메서드 : Read(), ReadLine(), string ReadLine()
