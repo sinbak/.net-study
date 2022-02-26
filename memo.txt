@@ -280,3 +280,11 @@ System.Object
   + System.IO.Stream
    + System.IO.FileStream
 >>> byte[] 배열로 데이터를 읽거나 저장함 -> 형변환이 요구됨
+
+- StreamWriter/StreamReader + BinaryWriter/BinaryReader 와 사용
+- 파일 정보 설정에 사용
+public FileStream(
+   string path;
+   FileMode mode;
+   FileAccess access
+)
